@@ -2,7 +2,8 @@
     "heros": [{
         "id": "1",
         "name": "Cecilion",
-        "roll": "Mage"
+        "roll": "Mage",
+        "image": "./src/assets/WhatsApp Image 2023-05-27 at 2.16.33 AM.jpeg"
     },
     {
         "id": "2",

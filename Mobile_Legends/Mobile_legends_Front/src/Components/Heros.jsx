@@ -5,7 +5,13 @@ import { useSelector } from 'react-redux'
 
 function Heros() {
 
+
+//     const src = URL.createObjectURL("../assets/react.svg");
+// console.log(src)
+
     const { heroslist } = useSelector((state) => state.heros);
+
+
 // console.log(heroslist)
     const handelHerosList = 
       heroslist.length ?  (heroslist.map((ele) => (
@@ -14,19 +20,18 @@ function Heros() {
         // {ele}
         // </span>
         <div key={ele.id}>
-          <span>Neme: {ele.name} </span>
-          <span>Roll {ele.roll}</span>
+            <span>Neme: {ele.name} </span>
+            <span>Roll: {ele.roll}</span>
         </div>
       ))) : null
-
-     
-  return (
-    <div>
-      <h2>All</h2>
-      <div>{handelHerosList} </div>
       
-    </div>
-  );
+    
+      return (
+        <div>
+          <h2>All</h2>
+          <div>{handelHerosList} </div>
+        </div>
+      );
 }
 
 export default Heros
