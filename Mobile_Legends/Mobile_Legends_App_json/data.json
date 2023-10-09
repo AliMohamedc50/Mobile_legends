@@ -1,0 +1,33 @@
+{
+    "heros": [{
+        "id": "1",
+        "name": "Cecilion",
+        "roll": "Mage"
+    },
+    {
+        "id": "2",
+        "name": "Khaleed",
+        "roll": "Fighter"
+    },
+    {
+        "id": "3",
+        "name": "Ling",
+        "roll": "Assassin"
+    },
+    {
+        "id": "4",
+        "name": "Atlas",
+        "roll": "Tank"
+    },
+    {
+        "id": "5",
+        "name": "Kimmy",
+        "roll": "Marksman"
+    },
+    {
+        "id": "6",
+        "name": "Estes",
+        "roll": "Suppport"
+    }
+]
+}
