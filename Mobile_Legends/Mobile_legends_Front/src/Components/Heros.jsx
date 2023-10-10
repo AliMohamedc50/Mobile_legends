@@ -13,25 +13,33 @@ function Heros() {
 
 
 // console.log(heroslist)
-    const handelHerosList = 
-      heroslist.length ?  (heroslist.map((ele) => (
-        // console.log(ele)
-        // <span>
-        // {ele}
-        // </span>
-        <div key={ele.id}>
-            <span>Neme: {ele.name} </span>
-            <span>Roll: {ele.roll}</span>
-        </div>
-      ))) : null
+
+
+
+    const handelHerosList = heroslist.length
+      ? heroslist.map((ele) => (
+          <div className='relative top-0 left-0 card' key={ele.id} >
+            <img className='w-full absolute h-full image' src={`./src/assets/image_hero/${ele.image}`} alt="" />
+            <div className="title ">
+              <h1>Neme: {ele.name} </h1>
+              <h1>Roll: {ele.role}</h1>
+            </div>
+          </div>
+        ))
+      : null;
       
     
       return (
         <div>
           <h2>All</h2>
-          <div>{handelHerosList} </div>
+          <div className='hold_card flex' >{handelHerosList} </div>
+          
+          
         </div>
       );
 }
 
 export default Heros
+
+
+        // "image": "./src/assets/WhatsApp Image 2023-05-27 at 2.16.33 AM.jpeg"
