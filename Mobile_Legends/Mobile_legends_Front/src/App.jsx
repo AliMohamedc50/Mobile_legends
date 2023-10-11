@@ -6,6 +6,8 @@ import Header from './Components/Header';
 import { getHeros } from './Store/herosSlice';
 import { useDispatch } from 'react-redux';
 import Heros from './Components/Heros';
+import {BrowserRouter ,Routes, Route} from "react-router-dom"
+import InfoHero from './Components/InfoHero';
 
 function App() {
 
@@ -13,12 +15,17 @@ function App() {
   useEffect(() => {
     dispache(getHeros());
   }, [dispache]);
-  return  (
+  return (
     <Fragment>
       <Header />
-      <Heros />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Heros />} />
+          <Route path="/hero/:id" element={<InfoHero />} />
+        </Routes>
+      </BrowserRouter>
     </Fragment>
-  )
+  );
 }
 
 export default App

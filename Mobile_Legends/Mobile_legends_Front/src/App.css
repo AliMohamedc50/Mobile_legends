@@ -1,7 +1,7 @@
 .hold_card {
     margin: auto;
     width: 1100px;
-    height: 2000px;
+    padding: 10px;
     background-color: rgb(204, 204, 231);
 }
 
@@ -11,9 +11,6 @@
     height: 260px;
 }
 
-.image {
-    /* opacity: 0.5; */
-}
 
 
 .title {
