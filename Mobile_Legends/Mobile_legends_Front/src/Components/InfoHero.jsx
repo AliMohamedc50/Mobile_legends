@@ -9,22 +9,14 @@ function InfoHero() {
   const { showHero } = useSelector((state) => state.heros);
 
   // console.log(showHero.image);
+
   return (
     <div>
+              <img src="src/assets/image_hero/Cecilion_Cosmetics (1).jpg" alt="" />
       <div className="hold_card">
         {showHero && (
           <>
             <div className="hold_image">
-              {/* <img
-            className="w-11 h-28"
-            src={`${showHero.image}`}
-            alt=""
-          /> */}
-              <img
-                src=""
-                alt=""
-              />
-              {/* <img src={`./src/assets/image_hero/${showHero.image}`} alt="" /> */}
             </div>
             <div className="info_hero">
               <h3>
