@@ -21,7 +21,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Heros />} />
-          <Route path="/hero/:id" element={<InfoHero />} />
+          <Route path="/hero" element={<InfoHero />} />
         </Routes>
       </BrowserRouter>
     </Fragment>

@@ -19,7 +19,7 @@ function Heros() {
 
   const handelHerosList = heroslist.length
     ? heroslist.map((ele) => (
-        <Link to={`/hero/${ele.id}`}>
+        <Link to={`/hero`}>
           <div
             onClick={() => disbach(getHero(ele))}
             className="relative top-0 left-0 card"

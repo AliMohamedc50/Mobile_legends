@@ -12,12 +12,12 @@ function InfoHero() {
 
   return (
     <div>
-              <img src="src/assets/image_hero/Cecilion_Cosmetics (1).jpg" alt="" />
       <div className="hold_card">
         {showHero && (
           <>
-            <div className="hold_image">
-            </div>
+          <div className="hold_image">
+            <img className="w-full " src="/src/assets/image_hero/Cecilion_Cosmetics (1).jpg" alt="" />
+          </div>
             <div className="info_hero">
               <h3>
                 {showHero.name} ({showHero.role})
