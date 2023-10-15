@@ -5,8 +5,9 @@
         "role": "Mage",
         "release_date": "12 February 2020",
         "lane_recc": "Mid Lane",
-        "image": "./src/assets/image_hero/Cecilion_Cosmetics (1).jpg",
+        "image": "/src/assets/image_hero/Cecilion_Cosmetics (1).jpg",
         "price": "32000",
+        "specialty": "Poke - Burst" ,
         "damage_type": "Magic"
     },
     {
@@ -14,7 +15,7 @@
         "name": "Khaleed",
         "role": "Fighter",
         "price": "32000",
-        "image": "./src/assets/image_hero/Khaleed_Skins.jfif",
+        "image": "/src/assets/image_hero/Khaleed_Skins.jfif",
         "lane_recc": "EXP Lane",
         "release_date": "August 6th, 2020",
         "damage_type": "Magic"

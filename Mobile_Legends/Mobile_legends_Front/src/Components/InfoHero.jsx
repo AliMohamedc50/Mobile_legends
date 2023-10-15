@@ -15,9 +15,9 @@ function InfoHero() {
       <div className="hold_card">
         {showHero && (
           <>
-          <div className="hold_image">
-            <img className="w-full " src="/src/assets/image_hero/Cecilion_Cosmetics (1).jpg" alt="" />
-          </div>
+            <div className="hold_image ">
+              <img className=" w-full " src={showHero.image } alt="" />
+            </div>
             <div className="info_hero">
               <h3>
                 {showHero.name} ({showHero.role})
@@ -26,6 +26,8 @@ function InfoHero() {
               <h3>Lane Recc: </h3>
               <h3>Price: </h3>
               <h3>Damage Type: </h3>
+            </div>
+            <div className="imp">
             </div>
           </>
         )}

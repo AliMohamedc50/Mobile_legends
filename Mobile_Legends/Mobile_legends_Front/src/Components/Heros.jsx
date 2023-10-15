@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from "react-router-dom";
 import { getHero } from '../Store/herosSlice';
@@ -12,11 +12,6 @@ function Heros() {
   const { heroslist } = useSelector((state) => state.heros);
 
   const disbach = useDispatch();
-
-
-
-
-
   const handelHerosList = heroslist.length
     ? heroslist.map((ele) => (
         <Link to={`/hero`}>
@@ -26,7 +21,7 @@ function Heros() {
             key={ele.id}
           >
             <img
-              className="w-full absolute h-full image"
+              className="w-full absolute h-full image-hero"
               src={`${ele.image}`}
               alt=""
             />
