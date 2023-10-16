@@ -3,12 +3,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-
-
 function InfoHero() {
   const { showHero } = useSelector((state) => state.heros);
-
-  // console.log(showHero.image);
 
   return (
     <div>

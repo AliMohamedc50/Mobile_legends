@@ -8,7 +8,10 @@ import { useDispatch } from 'react-redux';
 import Heros from './Components/Heros';
 import {BrowserRouter ,Routes, Route} from "react-router-dom"
 import InfoHero from './Components/InfoHero';
-
+// import Landingpage from './Components/landingpage';
+import HeaderContainer from './Components/HeaderContainer';
+// import Landingpage from './Components/Landingpage';
+// Landingpage
 function App() {
 
     const dispache = useDispatch()
@@ -17,10 +20,11 @@ function App() {
   }, [dispache]);
   return (
     <Fragment>
+      {/* <HeaderContainer /> */}
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Heros />} />
+          <Route path="/" element={<HeaderContainer />} />
           <Route path="/hero" element={<InfoHero />} />
         </Routes>
       </BrowserRouter>
