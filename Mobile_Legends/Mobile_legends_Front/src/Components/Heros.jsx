@@ -35,8 +35,8 @@ function Heros() {
     : null;
 
   return (
-    <div>
-      <h2>All</h2>
+    <div className='heros bg relative'>
+      <h2 className='header'>Roles</h2>
       <div className="hold_card flex">{handelHerosList} </div>
     </div>
   );
