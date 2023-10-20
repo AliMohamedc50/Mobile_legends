@@ -8,7 +8,6 @@ import { getHero } from '../Store/herosSlice';
 
 
 function Heros() {
-
   const { heroslist } = useSelector((state) => state.heros);
 
   const disbach = useDispatch();
@@ -35,14 +34,32 @@ function Heros() {
     : null;
 
   return (
-    <div className='heros bg relative'>
-      <h2 className='header'>Roles</h2>
-      <div className="hold_card flex">{handelHerosList} </div>
+    <div className="heros bg relative">
+      <h2 className="header">Roles</h2>
+
+      <div className="roles">
+        <div className='hold_role'>
+          <img src="/src/assets/other_photos/mage_role.jfif" alt="" />
+        </div>
+        <div className='hold_role'>
+          <img src="/src/assets/other_photos/assassin_role.jfif" alt="" />
+        </div>
+        <div className='hold_role'>
+          <img src="/src/assets/other_photos/fighter_role.jfif" alt="" />
+        </div>
+        <div className='hold_role'>
+          <img src="/src/assets/other_photos/marksman_role.jfif" alt="" />
+        </div>
+        <div className='hold_role'>
+          <img src="/src/assets/other_photos/support_role.jfif" alt="" />
+        </div>
+        <div className='hold_role'>
+          <img src="/src/assets/other_photos/tank_role.jfif" alt="" />
+        </div>
+      </div>
+      <div className="hold_card flex border-spacing-1 ">{handelHerosList} </div>
     </div>
   );
 }
 
 export default Heros
-
-
-        // "image": "./src/assets/WhatsApp Image 2023-05-27 at 2.16.33 AM.jpeg"

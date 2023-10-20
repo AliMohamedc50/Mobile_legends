@@ -2,10 +2,10 @@
 
 import { Fragment, useEffect } from 'react';
 import './App.css'
-import Header from './Components/Header';
+// import Header from './Components/Header';
 import { getHeros } from './Store/herosSlice';
 import { useDispatch } from 'react-redux';
-import Heros from './Components/Heros';
+// import Heros from './Components/Heros';
 import {BrowserRouter ,Routes, Route} from "react-router-dom"
 import InfoHero from './Components/InfoHero';
 // import Landingpage from './Components/landingpage';
@@ -21,7 +21,7 @@ function App() {
   return (
     <Fragment>
       {/* <HeaderContainer /> */}
-      <Header />
+      {/* <Header /> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HeaderContainer />} />
