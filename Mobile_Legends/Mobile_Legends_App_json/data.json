@@ -24,8 +24,54 @@
                 "path": "/src/assets/image_hero/icons/Cecilion (5).webp"
             }
         ], 
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
         "price": "$32000",
         "specialty": "Poke - Burst" ,
+
+        "durability": "50%",
+        "offense": "100%",
+        "ability_effects": "30%",
+        "difficulty": "30%",
+        
         "damage_type": "Magic"
     },
     {
