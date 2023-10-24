@@ -74,6 +74,149 @@
         
         "damage_type": "Magic"
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": "5",
+        "name": "Hanabi",
+        "role": "Marksman",
+        "release_date": "12 February 2020",
+        "lane_recc": "Gold Lane",
+        "image": "/src/assets/image_hero/Hanabi.jfif",
+        "background": "/src/assets/image_hero/background/Hanabi.jfif",
+        "price": "$32000",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/hanabi (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/hanabi (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/hanabi (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/hanabi (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/hanabi (5).webp"
+            }
+        ], 
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Berserker_Fury.webp",
+                "name": "Berserker Fury"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Blade_of_Despair.webp",
+                "name": "Blade of Despair"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Rose_Gold_Meteor.webp",
+                "name": "Rose Gold Meteor"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Scarlet_Phantom.webp",
+                "name": "Scarlet Phantom"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Swift_Boots.webp",
+                "name": "Swift Boots"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Windtalker.webp",
+                "name": "Windtalker"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Inspire.webp",
+                "name": "Inspire"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Sprint.webp",
+                "name": "Sprint"
+            }
+        ],
+        "specialty": "Poke - Burst" ,
+        "durability": "50%",
+        "offense": "100%",
+        "ability_effects": "30%",
+        "difficulty": "30%",
+        
+        "damage_type": "Physical"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         "id": "3",
         "name": "Alucard",

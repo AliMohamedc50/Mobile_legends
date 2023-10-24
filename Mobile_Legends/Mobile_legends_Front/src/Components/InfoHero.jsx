@@ -51,16 +51,19 @@ function InfoHero() {
                 {showHero.name} ({showHero.role})
               </h1>
               <h3 className="mt-5 border-b-2 border-cyan-900">
-                Release Date: <span> {showHero.release_date} </span>
+                specialty : <span> {showHero.specialty} </span>
+              </h3>
+              <h3 className="mt-5 border-b-2 border-cyan-900">
+                Release Date : <span> {showHero.release_date} </span>
               </h3>
               <h3 className="mt-5 mb-2 border-b-2 border-cyan-900 ">
-                Lane Recc: <span> {showHero.lane_recc}</span>
+                Lane Recc : <span> {showHero.lane_recc}</span>
               </h3>
               <h3 className="mt-5 mb-2 border-b-2 border-cyan-900">
-                Price: <span> {showHero.price} </span>
+                Price : <span> {showHero.price} </span>
               </h3>
               <h3 className="mt-5 mb-2 ">
-                Damage Type: <span> {showHero.damage_type} </span>
+                Damage Type : <span> {showHero.damage_type} </span>
               </h3>
               <div className="counters"></div>
             </div>
