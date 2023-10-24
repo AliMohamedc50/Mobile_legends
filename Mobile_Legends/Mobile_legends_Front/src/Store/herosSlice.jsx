@@ -15,7 +15,36 @@ export const getHeros = createAsyncThunk(
       return rejectWithValue(error.message);
     }
   }
-);
+  );
+
+export const getRole = createAsyncThunk("hero/getHeros", async (role, thunkAPI) => {
+  const { rejectWithValue } = thunkAPI;
+  try {
+    const res = await fetch(`http://localhost:3003/heros?role=${role}`);
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    return rejectWithValue(error.message);
+  }
+});
+  
+  // export const getRole = createAsyncThunk("hero/getRole", async (element, thunkAPI) => {
+  //   const { rejectWithValue } = thunkAPI;
+  //   try {
+  //     await fetch(`http://localhost:3003/heros?role=${element}`, {
+  //       method: "GET",
+  //       headers: {
+  //         "Content-Type": "application/json; charset=utf-8",
+  //       },
+  //     });
+  //     return element;
+  //   } catch (error) {
+  //     return rejectWithValue(error.message);
+  //   }
+  // });
+
+
+
 
 export const getHero = createAsyncThunk(
   "hero/getHero",
@@ -35,6 +64,9 @@ export const getHero = createAsyncThunk(
   }
 );
 
+
+
+
 const herosSlice = createSlice({
   name: "hero",
   initialState: {
@@ -42,16 +74,34 @@ const herosSlice = createSlice({
     showHero: localStorage.getItem("showHero")
       ? JSON.parse(localStorage.getItem("showHero"))
       : null,
+
+      loader: false
   },
   extraReducers: {
     [getHeros.pending]: (state, action) => {
-      // console.log(action);
+      state.loader = true;
     },
     [getHeros.fulfilled]: (state, action) => {
+      // state.loader = true;
+      state.loader = false;
       state.heroslist = action.payload;
-      // console.log(action.payload);
     },
     [getHeros.rejected]: (state, action) => {
+      console.log(state.loader);
+      // console.log(action);
+    },
+
+    [getRole.pending]: (state, action) => {
+      state.loader = true;
+    },
+    [getRole.fulfilled]: (state, action) => {
+      // state.loader = true;
+      state.loader = false;
+      state.heroslist = action.payload;
+      console.log(action.payload);
+    },
+    [getRole.rejected]: (state, action) => {
+      console.log(state.loader);
       // console.log(action);
     },
 

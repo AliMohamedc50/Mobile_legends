@@ -50,59 +50,63 @@ function InfoHero() {
               <h1>
                 {showHero.name} ({showHero.role})
               </h1>
-              <h3 className="mt-5">
+              <h3 className="mt-5 border-b-2 border-cyan-900">
                 Release Date: <span> {showHero.release_date} </span>
               </h3>
-              <h3 className="mt-1">
+              <h3 className="mt-5 mb-2 border-b-2 border-cyan-900 ">
                 Lane Recc: <span> {showHero.lane_recc}</span>
               </h3>
-              <h3 className="mt-1">
+              <h3 className="mt-5 mb-2 border-b-2 border-cyan-900">
                 Price: <span> {showHero.price} </span>
               </h3>
-              <h3 className="mt-1">
-                Damage Type: <span> {showHero.damage_type} </span>+
+              <h3 className="mt-5 mb-2 ">
+                Damage Type: <span> {showHero.damage_type} </span>
               </h3>
-              <div className="hold_data">
-                <div className="label">Durability</div>
-                <div className="hold_sled">
-                  <div
-                    style={{
-                      width: showHero.durability,
-                      background: "#fffb00",
-                    }}
-                    className="slid "
-                  ></div>
-                </div>
-                <div className="label">Offense</div>
-                <div className="hold_sled">
-                  <div
-                    style={{ width: showHero.offense, background: "#ffee00" }}
-                    className="slid "
-                  ></div>
-                </div>
-                <div className="label">Ability Effects</div>
-                <div className="hold_sled">
-                  <div
-                    style={{
-                      width: showHero.ability_effects,
-                      background: "#00d5ff",
-                    }}
-                    className="slid "
-                  ></div>
-                </div>
-                <div className="label">Difficulty</div>
-                <div className="hold_sled">
-                  <div
-                    style={{
-                      width: showHero.difficulty,
-                      background: "#00ff4c",
-                    }}
-                    className="slid "
-                  ></div>
+              <div className="counters"></div>
+            </div>
+            <div className="hold_build">
+              <div>
+                <div className="hold_data">
+                  <div className="label">Durability</div>
+                  <div className="hold_sled">
+                    <div
+                      style={{
+                        width: showHero.durability,
+                        background: "#fffb00",
+                      }}
+                      className="slid "
+                    ></div>
+                  </div>
+                  <div className="label">Offense</div>
+                  <div className="hold_sled">
+                    <div
+                      style={{ width: showHero.offense, background: "#ffee00" }}
+                      className="slid "
+                    ></div>
+                  </div>
+                  <div className="label">Ability Effects</div>
+                  <div className="hold_sled">
+                    <div
+                      style={{
+                        width: showHero.ability_effects,
+                        background: "#00d5ff",
+                      }}
+                      className="slid "
+                    ></div>
+                  </div>
+                  <div className="label">Difficulty</div>
+                  <div className="hold_sled">
+                    <div
+                      style={{
+                        width: showHero.difficulty,
+                        background: "#00ff4c",
+                      }}
+                      className="slid "
+                    ></div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="hold_build">{/* <div>{build}</div> */}</div>
             <div></div>
             <div className="build">
               <h2 className="head">Default Build</h2>

@@ -1,5 +1,6 @@
 {
-    "heros": [{
+    "heros": [
+    {
         "id": "1",
         "name": "Cecilion",
         "role": "Mage",
@@ -7,6 +8,7 @@
         "lane_recc": "Mid Lane",
         "image": "/src/assets/image_hero/Cecilion_Cosmetics (1).jpg",
         "background": "/src/assets/image_hero/background/Embrace_of_Night_wall.webp",
+        "price": "$32000",
         "skins": [
             {
                 "path": "/src/assets/image_hero/icons/Cecilion (1).webp"
@@ -64,9 +66,7 @@
                 "name": "Purify"
             }
         ],
-        "price": "$32000",
         "specialty": "Poke - Burst" ,
-
         "durability": "50%",
         "offense": "100%",
         "ability_effects": "30%",
@@ -77,10 +77,50 @@
     {
         "id": "3",
         "name": "Alucard",
-        "role": "Fighter / Assassin",
+        "role": "Assassin",
         "release_date": "2016",
         "lane_recc": "Jungling",
         "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
         "background": "/src/assets/image_hero/background/Alucard_29.webp",
         "price": "$15000",
         "specialty": "Chase / Damage",
