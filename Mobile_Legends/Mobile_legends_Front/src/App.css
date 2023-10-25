@@ -23,9 +23,31 @@
     text-shadow: 6px 5px 20px BLACK;
     color: white;
 }
+
+
+
 @media (max-width: 600px) {
     .hold_card {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .hold_card {
+    grid-template-columns: 150px 2fr 1fr;
+    }
+    .hold_skins {
+        padding: 37px 36px;
+        position: absolute;
+        top: -4px;
+        left: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 34px;
+        background: #e10000;
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
     }
 }
 

@@ -1,17 +1,12 @@
 /* eslint-disable no-unused-vars */
-
 import { Fragment, useEffect } from 'react';
 import './App.css'
-// import Header from './Components/Header';
 import { getHeros } from './Store/herosSlice';
 import { useDispatch } from 'react-redux';
-// import Heros from './Components/Heros';
 import {BrowserRouter ,Routes, Route} from "react-router-dom"
 import InfoHero from './Components/InfoHero';
-// import Landingpage from './Components/landingpage';
 import HeaderContainer from './Components/HeaderContainer';
-// import Landingpage from './Components/Landingpage';
-// Landingpage
+
 function App() {
 
     const dispache = useDispatch()
@@ -20,8 +15,6 @@ function App() {
   }, [dispache]);
   return (
     <Fragment>
-      {/* <HeaderContainer /> */}
-      {/* <Header /> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HeaderContainer />} />

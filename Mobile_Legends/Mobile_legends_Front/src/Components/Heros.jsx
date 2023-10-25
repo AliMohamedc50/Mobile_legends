@@ -35,14 +35,9 @@ function Heros() {
 
 
 
-
-
-
-
   return (
     <div className="heros bg relative">
       <h2 className="header">Roles</h2>
-
       <div className="roles">
         <div onClick={() => {disbach(getRole("Mage"))}} className="hold_role">
           <img  src="/src/assets/other_photos/mage_role.jfif" alt="" />
