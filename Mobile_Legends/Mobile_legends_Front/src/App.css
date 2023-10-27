@@ -8,6 +8,7 @@
     z-index: 500;
 }
 .hold_card {
+    /* overflow-y: scroll; */
     margin: auto;
     width: 90%;
     padding: 10px;
@@ -16,6 +17,12 @@
     grid-template-columns: 150px 2fr 1fr;
     grid-template-rows : 1fr auto;
     gap: 10px;
+}
+
+.hold_heros {
+        background: #6e6e6e1a;
+            -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
 }
 .text {
     z-index: 500;
@@ -26,30 +33,7 @@
 
 
 
-@media (max-width: 600px) {
-    .hold_card {
-        grid-template-columns: 1fr ;
-    }
-}
 
-@media (min-width: 601px) and (max-width: 900px) {
-    .hold_card {
-    grid-template-columns: 150px 2fr 1fr;
-    }
-    .hold_skins {
-        padding: 37px 36px;
-        position: absolute;
-        top: -4px;
-        left: 0px;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        gap: 34px;
-        background: #e10000;
-        -webkit-backdrop-filter: blur(3px);
-        backdrop-filter: blur(3px);
-    }
-}
 
 .hold_card .card{
     cursor: pointer;
@@ -175,7 +159,7 @@ input:focus {
 }
 .info_hero,
 .hold_build{
-    margin-top: 90px;
+margin-top: 90px;
     background: #0000009e;
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
@@ -229,13 +213,17 @@ input:focus {
 }
 .head {
     position: absolute;
-    color: wheat;
-    top: -2px;
-    left: 50%;
-    transform: translate(-50%, 0px);
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 2px;
+        color: wheat;
+        top: -2px;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 .hold_data {
 width: 100%;
@@ -340,3 +328,82 @@ width: 100%;
     transform: rotate(330deg) translate(0, -130%);
     animation-delay: -0.1s;
 }
+
+
+
+
+
+@media (min-width: 749px) and (max-width: 970px) {
+    .hold_card {
+        grid-template-columns: auto 2fr 1fr;
+    }
+    .hold_role {
+            height: 75px;
+    }
+    .info_hero,
+    .hold_build {
+            margin-top: 167px;
+                height: 370px;
+        }
+    .hold_skins {
+        padding: 19px 0px;
+        position: absolute;
+        top: -4px;
+        left: 0px;
+        width: 100%;
+        height: 145px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 0;
+        gap: 0px;
+        background: #0000009e;
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        }
+        .hold_skins div:first-child,
+        .hold_skins div:last-child {
+            transform: translate(0px, 0px);
+        }
+    }
+    
+
+
+    @media (max-width: 750px) {
+        .hold_card {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+        }
+        .hold_role {
+            height: 40px;
+        }
+        .info_hero,
+        .hold_build {
+            margin-top: 167px;
+                height: 400px;
+        }
+        .hold_skins {
+            padding: 19px 0px;
+            position: absolute;
+            align-items: center;
+            top: -4px;
+            left: 0px;
+            width: 100%;
+            height: 145px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            border-radius: 0;
+            gap: 0px;
+            background: #0000009e;
+            -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+        }
+        .hold_skins div:first-child,
+        .hold_skins div:last-child {
+            transform: translate(0px, 0px);
+        }
+        .hold_build {
+            margin-top: 15px;
+        }
+    }

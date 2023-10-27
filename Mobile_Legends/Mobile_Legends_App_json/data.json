@@ -287,6 +287,631 @@
         "damage_type": "Magic"
     },
     {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+    {
+        "id": "3",
+        "name": "Alucard",
+        "role": "Assassin",
+        "release_date": "2016",
+        "lane_recc": "Jungling",
+        "image": "/src/assets/image_hero/Alucard Demon Hunter .jfif",
+        "build": [
+            {
+                "path": "/src/assets/image_hero/Build/Blood_Wings.webp",
+                "name": "Blood Wings"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Clock_of_Destiny.webp",
+                "name": "Clock of Destiny"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Concentrated_Energy.webp",
+                "name": "Concentrated Energy"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Demon_Shoes.webp",
+                "name": "Demon Shoes"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Holy_Crystal.webp",
+                "name": "Holy Crystal"
+            },
+            {
+                "path": "/src/assets/image_hero/Build/Lightning_Truncheon.webp",
+                "name": "Lightning Truncheon"
+            }
+        ], 
+        "recommended_spell": [
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flameshot.webp",
+                "name": "Flameshot"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Flicker.webp",
+                "name": "Flicker"
+            },
+            {
+                "path": "/src/assets/image_hero/Recommended_Spell/Purify.webp",
+                "name": "Purify"
+            }
+        ],
+        "background": "/src/assets/image_hero/background/Alucard_29.webp",
+        "price": "$15000",
+        "specialty": "Chase / Damage",
+        "skins": [
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (1).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (2).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (3).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (4).webp"
+            },
+            {
+                "path": "/src/assets/image_hero/icons/Alucard (5).webp"
+            }
+        ], 
+        "damage_type": "Magic"
+    },
+
+
+
+
+    {
         "id": "2",
         "name": "Khaleed",
         "role": "Fighter",

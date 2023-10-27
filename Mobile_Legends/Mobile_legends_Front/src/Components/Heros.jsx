@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { getHero, getRole, getHeros } from "../Store/herosSlice";
 
-
 function Heros() {
   const { heroslist, loader } = useSelector((state) => state.heros);
 
@@ -33,36 +32,69 @@ function Heros() {
       ))
     : null;
 
-
-
   return (
     <div className="heros bg relative">
       <h2 className="header">Roles</h2>
       <div className="roles">
-        <div onClick={() => {disbach(getRole("Mage"))}} className="hold_role">
-          <img  src="/src/assets/other_photos/mage_role.jfif" alt="" />
+        <div
+          onClick={() => {
+            disbach(getRole("Mage"));
+          }}
+          className="hold_role"
+        >
+          <img src="/src/assets/other_photos/mage_role.jfif" alt="" />
         </div>
-        <div className="hold_role">
+        <div
+          onClick={() => {
+            disbach(getRole("Assassin"));
+          }}
+          className="hold_role"
+        >
           <img src="/src/assets/other_photos/assassin_role.jfif" alt="" />
         </div>
-        <div className="hold_role">
+        <div
+          onClick={() => {
+            disbach(getRole("Fighter"));
+          }}
+          className="hold_role"
+        >
           <img src="/src/assets/other_photos/fighter_role.jfif" alt="" />
         </div>
-        <div className="hold_role">
+        <div
+          onClick={() => {
+            disbach(getRole("Marksman"));
+          }}
+          className="hold_role"
+        >
           <img src="/src/assets/other_photos/marksman_role.jfif" alt="" />
         </div>
-        <div className="hold_role">
+        <div
+          onClick={() => {
+            disbach(getRole("Support"));
+          }}
+          className="hold_role"
+        >
           <img src="/src/assets/other_photos/support_role.jfif" alt="" />
         </div>
-        <div className="hold_role">
+        <div
+          onClick={() => {
+            disbach(getRole("Tank"));
+          }}
+          className="hold_role"
+        >
           <img src="/src/assets/other_photos/tank_role.jfif" alt="" />
         </div>
       </div>
 
-
-<h1 onClick={() => {disbach(getHeros())}} >All</h1>
+      <h1
+        onClick={() => {
+          disbach(getHeros());
+        }}
+      >
+        All
+      </h1>
       {loader ? (
-         <div className="loader">
+        <div className="loader">
           <div className="bar1"></div>
           <div className="bar2"></div>
           <div className="bar3"></div>
@@ -77,7 +109,7 @@ function Heros() {
           <div className="bar12"></div>
         </div>
       ) : (
-        <div className="hold_card flex border-spacing-1 ">
+        <div className="hold_card  hold_heros overflow-auto max-h-96  flex flex-wrap justify-around ">
           {handelHerosList}
         </div>
       )}
