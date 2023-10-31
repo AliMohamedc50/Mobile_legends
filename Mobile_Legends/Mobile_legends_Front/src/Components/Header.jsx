@@ -13,17 +13,17 @@ function Header() {
           />
         </div>
         <span className="mx-2 w-1 h-10 bg-slate-800 rounded-full "></span>
+      </div>
         <div className="search">
           <span className="material-symbols-outlined text-slate-300">
             search
           </span>
-          <input type="text" className="" />
+          <input type="text" className="w-full" />
         </div>
-      </div>
-      <div className="buttons">
+      {/* <div className="buttons">
         <button className="btn mx-5">Log in</button>
         <button className="btn">Sign Up</button>
-      </div>
+      </div> */}
     </div>
   );
 }

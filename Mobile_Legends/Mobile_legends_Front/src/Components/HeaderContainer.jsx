@@ -4,6 +4,7 @@ import Landingpage from './landingpage';
 import Header from './Header';
 import Heros from './Heros';
 import About_Us from './About_Us';
+import New_Hero from './New_Hero';
 
 function HeaderContainer() {
     return (
@@ -12,6 +13,7 @@ function HeaderContainer() {
         <Landingpage />
         <About_Us />
         <Heros />
+        <New_Hero />
       </div>
     );
 }
