@@ -44,19 +44,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hold_card .card{
     cursor: pointer;
     width: 150px;
@@ -272,14 +259,16 @@ width: 100%;
     background-position: bottom;
     background-color: #000e14;
 }
-
-
 .image_about {
     max-width: 400px;
     height: 100%;
 }
 
-
+.new_hero {
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+}
 
 
 .loader {

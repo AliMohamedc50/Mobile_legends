@@ -4,8 +4,8 @@ import React from 'react'
 function New_Hero() {
   return (
     <div>
-      <div>
-        <div className="about h-80 w-full flex justify-around items-center p-8">
+      <div className='bg'>
+        <div className="new_hero h-96 w-full flex justify-around items-center p-8 bg-slate-900">
           <div className="image_about">
             <img
               className="w-full h-full"
