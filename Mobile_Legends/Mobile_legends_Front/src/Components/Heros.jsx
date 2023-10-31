@@ -90,6 +90,7 @@ function Heros() {
         onClick={() => {
           disbach(getHeros());
         }}
+        className="all"
       >
         All
       </h1>

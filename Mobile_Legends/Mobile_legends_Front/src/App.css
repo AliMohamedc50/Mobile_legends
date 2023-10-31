@@ -31,6 +31,57 @@
     color: white;
 }
 
+.all{
+    font-family: Righteous;
+    color: white;
+    background: #004671;
+    border-radius: 5px;
+    padding: 12px 36px;
+    width: 97px;
+    margin: 15px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -329,7 +380,12 @@ width: 100%;
     animation-delay: -0.1s;
 }
 
-
+.about {
+    background: url(../src/assets/about/background_default_mobile_legends_bang_bang_dl__by_prasblacker_degzssk.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #000e14;
+}
 
 
 
@@ -407,3 +463,22 @@ width: 100%;
             margin-top: 15px;
         }
     }
+
+
+
+
+        /* .hold_card::-webkit-scrollbar-track {
+            background-color: #b46868;
+        }
+    
+        .hold_card::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    
+        .hold_card::-webkit-scrollbar-button {
+            background-color: #7c2929;
+        }
+    
+        .hold_card::-webkit-scrollbar-corner {
+            background-color: black;
+        } */
