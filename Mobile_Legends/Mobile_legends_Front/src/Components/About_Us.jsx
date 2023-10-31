@@ -13,7 +13,7 @@ function About_Us() {
             />
           </div>
           <div className="title">
-            <h2>Mobile Legends: Bang Bang </h2>
+            <h2>Mobile Legends: Bang Bang </h2> 
             <p>
                 Enjoy the Classic MOBA on Your Mobile. Challenge Top Players All
                 Over the World!
