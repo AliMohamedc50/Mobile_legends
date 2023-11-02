@@ -7,15 +7,16 @@ import About_Us from './About_Us';
 import New_Hero from './New_Hero';
 
 function HeaderContainer() {
-    return (
-      <div>
-        <Header />
-        <Landingpage />
-        <About_Us />
-        <Heros />
-        <New_Hero />
-      </div>
-    );
+
+  return (
+    <div>
+      <Header />
+      <Landingpage />
+      <About_Us />
+      <Heros />
+      <New_Hero />
+    </div>
+  );
 }
 
 export default HeaderContainer

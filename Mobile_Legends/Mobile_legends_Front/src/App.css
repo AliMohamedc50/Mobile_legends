@@ -33,6 +33,7 @@
 
 .all{
     font-family: Righteous;
+    cursor: pointer;
     color: white;
     background: #004671;
     border-radius: 5px;
@@ -95,12 +96,13 @@
     border-radius: 11px;
 }
 .search {
+    position: relative;
     width: 250px;
     border-radius: 8px;
     display: flex;
     align-items: center;
     background: #1e3640;
-    padding: 6px 7px;
+    padding: 6px 7px 10px;
     border: 1px solid black;
 }
 .search input {
@@ -109,6 +111,21 @@
 input:focus {
     border: none;
     outline: none;
+}
+.search_heros {
+
+    border-top: black solid 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    /* height: fit-content; */
+    max-height: 200px;
+    overflow-x: auto;
+    position: absolute;
+    background: #1e3640;
+    top: 34px;
+    left: 0;
+    z-index: 50;
 }
 
 .header {

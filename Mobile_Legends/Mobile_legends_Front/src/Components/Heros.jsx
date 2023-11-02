@@ -91,6 +91,7 @@ function Heros() {
           disbach(getHeros());
         }}
         className="all"
+        
       >
         All
       </h1>
