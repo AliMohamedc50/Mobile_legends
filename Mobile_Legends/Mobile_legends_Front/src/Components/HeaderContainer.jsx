@@ -6,12 +6,15 @@ import Heros from './Heros';
 import About_Us from './About_Us';
 import New_Hero from './New_Hero';
 
+
 function HeaderContainer() {
 
   return (
     <div>
       <Header />
       <Landingpage />
+
+
       <About_Us />
       <Heros />
       <New_Hero />

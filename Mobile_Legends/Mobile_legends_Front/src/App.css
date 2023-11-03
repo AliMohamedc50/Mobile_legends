@@ -7,6 +7,11 @@
     left: 0;
     z-index: 500;
 }
+
+.text_time {
+    
+}
+
 .hold_card {
     /* overflow-y: scroll; */
     margin: auto;

@@ -15,19 +15,21 @@ export const getHeros = createAsyncThunk(
       return rejectWithValue(error.message);
     }
   }
-  );
+);
 
-export const getRole = createAsyncThunk("hero/getHeros", async (role, thunkAPI) => {
-  const { rejectWithValue } = thunkAPI;
-  try {
-    const res = await fetch(`http://localhost:3003/heros?role=${role}`);
-    const data = await res.json();
-    return data;
-  } catch (error) {
-    return rejectWithValue(error.message);
+export const getRole = createAsyncThunk(
+  "hero/getHeros",
+  async (role, thunkAPI) => {
+    const { rejectWithValue } = thunkAPI;
+    try {
+      const res = await fetch(`http://localhost:3003/heros?role=${role}`);
+      const data = await res.json();
+      return data;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
   }
-});
-
+);
 
 export const searchHero = createAsyncThunk(
   "hero/searchHeros",
@@ -42,7 +44,6 @@ export const searchHero = createAsyncThunk(
     }
   }
 );
-
 
 export const searchHero_role = createAsyncThunk(
   "hero/searchHeros",
@@ -76,7 +77,6 @@ export const getHero = createAsyncThunk(
   }
 );
 
-
 const herosSlice = createSlice({
   name: "hero",
   initialState: {
@@ -94,11 +94,12 @@ const herosSlice = createSlice({
     [getHeros.fulfilled]: (state, action) => {
       // state.loader = true;
       state.loader = false;
+
       state.heroslist = action.payload;
     },
     [getHeros.rejected]: (state, action) => {
-      console.log(state.loader);
-      // console.log(action);
+      // state.loader;
+      //  (action);
     },
 
     [getRole.pending]: (state, action) => {
@@ -108,10 +109,10 @@ const herosSlice = createSlice({
       // state.loader = true;
       state.loader = false;
       state.heroslist = action.payload;
-      console.log(action.payload);
+      // console.log(action.payload);
     },
     [getRole.rejected]: (state, action) => {
-      console.log(state.loader);
+      // console.log(state.loader);
       // console.log(action);
     },
 
@@ -127,20 +128,17 @@ const herosSlice = createSlice({
       console.log(action);
     },
 
-
-
     [searchHero.pending]: (state, action) => {
       // console.log(action);
     },
     [searchHero.fulfilled]: (state, action) => {
       state.search_Hero = action.payload;
 
-      console.log(state.search_Hero);
+      // console.log(state.search_Hero);
     },
     [searchHero.rejected]: (state, action) => {
-      console.log(action);
+      // console.log(action);
     },
-
 
     [searchHero_role.pending]: (state, action) => {
       // console.log(action);
@@ -148,7 +146,7 @@ const herosSlice = createSlice({
     [searchHero_role.fulfilled]: (state, action) => {
       state.search_Hero = action.payload;
 
-      console.log(state.search_Hero);
+      // console.log(state.search_Hero);
     },
     [searchHero_role.rejected]: (state, action) => {
       console.log(action);
